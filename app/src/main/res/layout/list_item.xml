@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="end"
+            android:text="ID:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center|start"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="end"
+            android:text="MAC:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/device_mac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="end"
+            android:text="Event:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:gravity="end"
+            android:text="Data:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/meta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>
